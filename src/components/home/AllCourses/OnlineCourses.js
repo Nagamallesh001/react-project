@@ -3,6 +3,7 @@
 import React from 'react'
 import { Title } from '../../title/Title';
 import { online } from '../../dummydata';
+import "./courses.css"
 
 const OnlineCourses = () => {
   return (

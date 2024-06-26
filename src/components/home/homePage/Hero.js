@@ -8,7 +8,8 @@ import HAbout from './HAbout'
 import Test from '../testiomonal/Test'
 import Hblog from './Hblog'
 import Hprice from './Hprice'
-import Footer from '../../common/footer/Footer'
+import Footer from '../../footer/Fotter'
+import Footer2 from '../../footer/footer2'
 
 const Hero = () => {
   return (
@@ -20,6 +21,7 @@ const Hero = () => {
     <Hblog/>
     <Hprice/>
     <Footer/>
+    <Footer2/>
     </>
   )
 }

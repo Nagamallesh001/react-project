@@ -1,7 +1,7 @@
 
 .newletter{
     background-color: #1eb2a6;
-    margin-top: 50px;
+    margin-bottom: -330px;
     padding: 50px ;
     color: #fff;   
 }
@@ -36,10 +36,22 @@ footer {
   background-color: #eeeeee;
 
 }
+.footer p{
+    position: relative;
+    top: -70px;
+    left: 280px;
+}
 .footer .container {
     display: grid;
     grid-template-columns: 3fr 2fr 2fr 4fr 3fr;
     grid-gap: 30px;
+}
+.footer .logo h1 {
+    color: #0c1111;
+}
+footer .last{
+position: relative;
+top: -250px;
 }
 
 @media screen and (max-width: 768px) {
@@ -103,9 +115,17 @@ footer .last i {
     font-size: 20px;
     color: #1eb2a6;
 }
-.legal {
+
+/* ----------------------------- */
+
+
+.footer2 {
+    background-color: #4f4848;
+    color: #fff;
+    margin-top: -180em;
+    height: 70px;
     text-align: center;
-    padding: 50px 0;
-    color: grey;
-    background-color: #e9e9e9;
+    padding: 10px 0;
+    width: 100%;
+    z-index: 1;
 }

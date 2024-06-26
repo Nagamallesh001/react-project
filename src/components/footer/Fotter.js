@@ -1,5 +1,5 @@
 
-import { blog } from "../../dummydata"
+import { blog } from "../dummydata"
 import "./footer.css"
 import React from 'react'
 
@@ -92,11 +92,6 @@ const Footer=()=> {
         </div>
         </div>
     </footer>
-   <div className="legal"></div>
-<p> Copyright @2022 All rights reserved | This template is made iwth 
-    <i className="fa fa-heart"></i>
-by GorkhCode
-</p>
 </div>
    </>
   )
