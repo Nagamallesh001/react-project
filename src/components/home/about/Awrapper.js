@@ -21,7 +21,6 @@ export const Awrapper = () => {
     </div>
 
     </section>
-    {/* <h1>Awrapper</h1> */}
     </>
   )
 }
