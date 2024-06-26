@@ -1,0 +1,116 @@
+
+.hero{
+    background-image: url("https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?cs=srgb&dl=pexels-pixabay-301920.jpg&fm=jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 250vh;
+    padding-top: 20%;
+    padding-right: 50px;
+    color: #fff;
+}
+.hero #heading h3 {
+    color: #fff;
+}
+.hero #heading {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px 2px black;
+}
+.home-para {
+    text-shadow: 2px 1px 9px black;
+    
+}
+.aboutHome{
+    margin-top: 260px;
+}
+
+
+   /*-----   HAbout styling page ----  */
+
+    .homeAbout{
+        position: relative;
+        top:-260px;
+    }
+    .homeAbout .grid2 {
+       position: relative;
+       top: -42em;
+    }
+
+   /* ----Course styling page ----- */
+      .online{
+        position: relative;
+        top: -75em;
+      }
+    /* -------TEST STYLING PAGE------- */
+     .testimonal {
+        position: relative;
+        top: -90em;
+        z-index: -1;
+     }   
+     .testimonal .grid2 {
+        position: relative;
+        top: -40em;
+        z-index: -1;
+     }
+
+     /* ----blog styling page---- */
+    
+      .blog {
+        position: relative;
+        top: -140em;
+        z-index: 1;
+      }
+       .grid2{
+        position: relative;
+        top: -30em;
+       }
+      /* ---pricing styling page--- */
+
+      .hprice {
+        position: relative;
+        top: -180em;
+        z-index: 1;
+      }
+      
+      /* ---Fotter--- */
+     
+      .footer {
+        position: relative;
+        top: -180em;
+        /* margin-bottom: 0; */
+      }
+      .last {
+        position: relative;
+        top: 10em;
+        height: 0;
+      }
+      .flexSB{
+       
+      }
+     
+
+
+
+
+@media screen and (max-width:768px) {
+    .margin {
+        height: 40vh;
+    }
+    .hero {
+        background-position: right;
+        padding-top: 50%;
+        height: 210vh;
+ 
+    }
+    .hero .row {
+        width: 100%;
+    }
+    
+}
+
