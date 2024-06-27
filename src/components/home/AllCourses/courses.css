@@ -116,5 +116,15 @@
     color: #fff;
 }
 
+.footer1 {
+    background-color: #4f4848;
+    color: #fff;
+    margin-top: -70em;
+    height: 70px;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    z-index: 1;
+}
 
 
