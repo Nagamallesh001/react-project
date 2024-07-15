@@ -64,6 +64,8 @@
 }
 .online {
     text-align: center;
+    position: relative;
+    top: -50em;
    
 }
 
@@ -119,7 +121,7 @@
 .footer1 {
     background-color: #4f4848;
     color: #fff;
-    margin-top: -70em;
+    margin-top: -48em;
     height: 70px;
     text-align: center;
     padding: 10px 0;
